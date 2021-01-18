@@ -1,9 +1,9 @@
 
 :root {
-    --global-font-size: 18px;
+    --global-font-size: 20px;
     --global-font-color: #444;
-    --mono-font-stack: Courier New, Inconsolata, Ubuntu, monospace; 
-    --font-stack: Courier New, Inconsolata, Ubuntu, monospace; 
+    --mono-font-stack: Inconsolata, Courier New, Ubuntu, monospace; 
+    --font-stack: Inconsolata, Courier New, Ubuntu, monospace; 
     --global-line-height: 1.6em;
     --page-width: 70em;
     --display-h1-decoration: 1;
@@ -12,7 +12,7 @@
 
 @media only screen and (max-width: 850px) {
     :root {
-        --global-font-size: 16px;
+        --global-font-size: 18px;
         --global-font-color: #444;
         --global-line-height: 1.6em;
         --page-width: 70em;
