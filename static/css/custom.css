@@ -1,9 +1,9 @@
 
 :root {
-    --global-font-size: 16px;
+    --global-font-size: 18px;
     --global-font-color: #444;
-    --mono-font-stack: Inconsolata, Ubuntu, monospace; 
-    --font-stack: Inconsolata, Ubuntu, monospace; 
+    --mono-font-stack: Courier New, Inconsolata, Ubuntu, monospace; 
+    --font-stack: Courier New, Inconsolata, Ubuntu, monospace; 
     --global-line-height: 1.6em;
     --page-width: 70em;
     --display-h1-decoration: 1;
@@ -19,10 +19,10 @@
     }
 }
 .pinball-logo {
-    width: 25%;
+    width: 33%;
 }
 .pinball-logo img {
-    width: auto !important;
+    width: 100%;
 }
 .sidebar-heading {
     text-transform: none;
@@ -49,7 +49,9 @@ body {
     background-color: #fff;
     margin-bottom: 75px;
 }
-
+img {
+    width: 50%;
+}
 h1,
 h2,
 h3,

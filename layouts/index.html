@@ -2,20 +2,19 @@
 
 
 <h1>Hi there!!</h1>
-<div class = "pinball-logo" style="width: 25%">
+<div class = "pinball-logo" >
     <img src="/images/pinball_multiball.svg">
 </div>
 <p>
 Glad that you're here.</p>
-<p>This is my weblog on data science and open source development, with a focus on <b>messy data</b>, <b>data librarianship</b>, <b>games</b>, and <b>whatever else!!</b>  <a href="about/">(more)</a>
+<p>This is my weblog on data science and open source development, with a focus on <b>messy data</b>, <b>open source software development</b>, <b>data librarianship</b>, <b>games</b>, and whatever else!!  <a href="about/">(more about me)</a>
 </p>
-<br/>
 
 <h1>Latest posts</h1>
 
 <div class="posts-list">
 {{ with .Site.GetPage "/posts" }}
-    {{ range first 3 (sort .Data.Pages "Date" "desc" (where .Pages ".Params.private" "!=" true))}}
+    {{ range first 5 (sort .Data.Pages "Date" "desc" (where .Pages ".Params.private" "!=" true))}}
         <div class="post">
             <p>
                 <div class="date">{{ .PublishDate.Format "Jan. 2, 2006" }}</div>
@@ -27,7 +26,7 @@ Glad that you're here.</p>
 {{ end }}
 </div>
 
-<h1>Latest photos</h1>
+<!-- <h1>Latest photos</h1>
 
 <div class="image-grid">
 {{ with .Site.GetPage "/photos" }}
@@ -41,6 +40,6 @@ Glad that you're here.</p>
         </a>
     {{ end }}
 {{ end }}
-</div>
+</div> -->
 
 {{ end }}
