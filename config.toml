@@ -1,0 +1,4 @@
+baseURL = "http://cassws.net/"
+languageCode = "en-us"
+theme = "hugo-theme-console"
+title = "Cass Wilkinson Saldana"
