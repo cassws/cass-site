@@ -19,6 +19,11 @@ Glad that you're here.</p>
             <p>
                 <div class="date">{{ .PublishDate.Format "Jan. 2, 2006" }}</div>
                 <h1><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h1>
+                {{ if isset .Params "photo" }}
+                <div class = "featured-photo">
+                    <a href="{{ .Permalink }}"><img src="/images/{{ .Params.photo }}"></a>
+                </div>
+                {{ end }}
                 {{ .Summary }}
             </p>
         </div>    

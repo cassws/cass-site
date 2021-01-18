@@ -2,6 +2,7 @@
 title:  "On visualizing the loveliness of the pinball universe"
 date:   2019-03-10 17:22:00
 draft:  false
+photo:  "pinball_network.png"  
 ---
 
 [![network graph of pinball machines showing relationship between machines across United States](/images/pinball_network.png)](https://medium.com/messy-data/on-visualizing-the-loveliness-of-the-pinball-universe-ae00f018ff27)

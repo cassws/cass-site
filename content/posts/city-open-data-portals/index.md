@@ -2,6 +2,7 @@
 title:  "Stories from the city, stories from the cloud: an introduction to city open data portals in the United States"
 date:   2019-01-10 17:22:00
 draft:  false
+photo:  "stories_from_city.png"
 ---
 
 [![bar chart showing number of datasets in open data portal for cities with top fifteen highest Census ratings.](/images/stories_from_city.png)](https://medium.com/messy-data/stories-from-the-city-stories-from-the-cloud-an-introduction-to-city-open-data-portals-in-the-636ab60500bc)

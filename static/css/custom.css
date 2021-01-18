@@ -19,10 +19,10 @@
     }
 }
 .pinball-logo {
-    width: 33%;
+    width: 50%;
 }
-.pinball-logo img {
-    width: 100%;
+.featured-photo {
+    width: 50%;
 }
 .sidebar-heading {
     text-transform: none;
