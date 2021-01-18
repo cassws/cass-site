@@ -1,4 +1,4 @@
-baseURL = "http://cassws.net/"
+baseURL = "https://cassws.net/"
 languageCode = "en-us"
 theme = "hugo-theme-console"
 title = "Cass Wilkinson Saldaña"
